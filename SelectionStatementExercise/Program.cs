@@ -2,15 +2,6 @@
 {
     public class Program
     {
-        public static string GetDrinkByProfession(string p)
-        {
-            string userInput = Console.ReadLine();
-
-            return userInput;
-        }
-
-
-
         static void Main(string[] args)
         {
             //exercise one -----------
@@ -77,9 +68,9 @@
             switch (prof.ToLower())
             {
                 case "Jabroni":
-                    Console.WriteLine("Patron Tequila is your drink");
+                    Console.WriteLine("Patron Tequila");
                     break;
-                case "School Councilor":
+                case "School Counselor":
                     Console.WriteLine("Anything with Alcohol");
                     break;
                 case "Programmer":
@@ -95,7 +86,7 @@
                     Console.WriteLine("Cristal");
                     break;
                     default:
-                    Console.WriteLine("beer");
+                    Console.WriteLine("Beer");
                     break;
             }
         }
